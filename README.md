@@ -9,6 +9,9 @@ Installed in a 600XL:
 
 The little board, once assembled, is piggybacked on top of a 74LS14 Hex Inverter.
 
+# BOM:
+
+
 
 
 
