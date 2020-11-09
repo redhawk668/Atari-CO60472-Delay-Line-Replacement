@@ -9,20 +9,20 @@ Installed in a 600XL:
 
 The little board, once assembled, is piggybacked on top of a 74LS14 Hex Inverter.
 
-# BOM:
-1x 74LS14 Hex Inverter Schmitt Trigger
+# Billing of Materials:
+- 1x 74LS14 Hex Inverter Schmitt Trigger
 
 Resistors:
-R1  : 120R Resistor, 0603
-R2  : 100R Resistor, 0603
-R3  : 120R Resistor, 0603
-R4  : 270R Resistor, 0603
-R5  : 620R Resistor, 0603
+- R1  : 120R Resistor, 0603
+- R2  : 100R Resistor, 0603
+- R3  : 120R Resistor, 0603
+- R4  : 270R Resistor, 0603
+- R5  : 620R Resistor, 0603
 
 Capacitors:
-C1  : 1nF X7R Capacitor, 0603
-C2  : 150pF X7R Capacitor, 0603
-C3  : 30pF X7R Capacitor, 0603
+- C1  : 1nF X7R Capacitor, 0603
+- C2  : 150pF X7R Capacitor, 0603
+- C3  : 30pF X7R Capacitor, 0603
 
 Bend up pins 2,3,5,9,11 and 13, solder the little PCB on top of the 74LS14. Connect pins 1 and 7 to the PCB. 
 
