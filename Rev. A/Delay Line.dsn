@@ -1,0 +1,273 @@
+(pcb "O:\Delay Line\Delay Line.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.4)-1")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  145453 -66929  145453 -85864.7  129476 -85864.7  129464 -66852.8
+            145440 -66852.8  145453 -66929)
+    )
+    (plane GND (polygon B.Cu 0  129464 -66852.8  145466 -66802  145415 -85902.8  129464 -85826.6
+            129464 -66852.8))
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Housings_DIP:DIP-14_W7.62mm"
+      (place U13 134645 -68707 front 0 (PN 74LS14))
+    )
+    (component Capacitors_SMD:C_0603_HandSoldering
+      (place C1 144297 -69199.8 front 90 (PN 1nF))
+      (place C3 144297 -79603.6 front 90 (PN 30pF))
+    )
+    (component Capacitors_SMD:C_0603_HandSoldering::1
+      (place C2 144297 -74295 front 90 (PN 150pF))
+    )
+    (component Resistors_SMD:R_0603_HandSoldering
+      (place R1 130391 -69883.2 front 90 (PN 120))
+    )
+    (component Resistors_SMD:R_0603_HandSoldering::1
+      (place R2 130391 -75120.5 front 90 (PN 100))
+    )
+    (component Resistors_SMD:R_0603_HandSoldering::2
+      (place R3 130391 -80594.2 front 90 (PN 120))
+    )
+    (component Resistors_SMD:R_0603_HandSoldering::3
+      (place R4 132283 -69908.6 front 90 (PN 270))
+    )
+    (component Resistors_SMD:R_0603_HandSoldering::4
+      (place R5 132359 -75115.6 front 90 (PN 620))
+    )
+  )
+  (library
+    (image "Housings_DIP:DIP-14_W7.62mm"
+      (outline (path signal 50  8700 1550  -1100 1550))
+      (outline (path signal 50  8700 -16800  8700 1550))
+      (outline (path signal 50  -1100 -16800  8700 -16800))
+      (outline (path signal 50  -1100 1550  -1100 -16800))
+      (outline (path signal 120  6460 1330  4810 1330))
+      (outline (path signal 120  6460 -16570  6460 1330))
+      (outline (path signal 120  1160 -16570  6460 -16570))
+      (outline (path signal 120  1160 1330  1160 -16570))
+      (outline (path signal 120  2810 1330  1160 1330))
+      (outline (path signal 100  635 270  1635 1270))
+      (outline (path signal 100  635 -16510  635 270))
+      (outline (path signal 100  6985 -16510  635 -16510))
+      (outline (path signal 100  6985 1270  6985 -16510))
+      (outline (path signal 100  1635 1270  6985 1270))
+      (pin Oval[A]Pad_1600x1600_um 14 7620 0)
+      (pin Oval[A]Pad_1600x1600_um 7 0 -15240)
+      (pin Oval[A]Pad_1600x1600_um 13 7620 -2540)
+      (pin Oval[A]Pad_1600x1600_um 6 0 -12700)
+      (pin Oval[A]Pad_1600x1600_um 12 7620 -5080)
+      (pin Oval[A]Pad_1600x1600_um 5 0 -10160)
+      (pin Oval[A]Pad_1600x1600_um 11 7620 -7620)
+      (pin Oval[A]Pad_1600x1600_um 4 0 -7620)
+      (pin Oval[A]Pad_1600x1600_um 10 7620 -10160)
+      (pin Oval[A]Pad_1600x1600_um 3 0 -5080)
+      (pin Oval[A]Pad_1600x1600_um 9 7620 -12700)
+      (pin Oval[A]Pad_1600x1600_um 2 0 -2540)
+      (pin Oval[A]Pad_1600x1600_um 8 7620 -15240)
+      (pin Rect[A]Pad_1600x1600_um 1 0 0)
+    )
+    (image Capacitors_SMD:C_0603_HandSoldering
+      (outline (path signal 50  1800 -650  -1800 -650))
+      (outline (path signal 50  1800 -650  1800 650))
+      (outline (path signal 50  -1800 650  -1800 -650))
+      (outline (path signal 50  -1800 650  1800 650))
+      (outline (path signal 120  350 -600  -350 -600))
+      (outline (path signal 120  -350 600  350 600))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin Rect[T]Pad_1200x750_um 2 950 0)
+      (pin Rect[T]Pad_1200x750_um 1 -950 0)
+    )
+    (image Capacitors_SMD:C_0603_HandSoldering::1
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  -350 600  350 600))
+      (outline (path signal 120  350 -600  -350 -600))
+      (outline (path signal 50  -1800 650  1800 650))
+      (outline (path signal 50  -1800 650  -1800 -650))
+      (outline (path signal 50  1800 -650  1800 650))
+      (outline (path signal 50  1800 -650  -1800 -650))
+      (pin Rect[T]Pad_1200x750_um 1 -950 0)
+      (pin Rect[T]Pad_1200x750_um 2 950 0)
+    )
+    (image Resistors_SMD:R_0603_HandSoldering
+      (outline (path signal 50  1950 -700  -1960 -700))
+      (outline (path signal 50  1950 -700  1950 700))
+      (outline (path signal 50  -1960 700  -1960 -700))
+      (outline (path signal 50  -1960 700  1950 700))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin Rect[T]Pad_1200x900_um 2 1100 0)
+      (pin Rect[T]Pad_1200x900_um 1 -1100 0)
+    )
+    (image Resistors_SMD:R_0603_HandSoldering::1
+      (outline (path signal 50  1950 -700  -1960 -700))
+      (outline (path signal 50  1950 -700  1950 700))
+      (outline (path signal 50  -1960 700  -1960 -700))
+      (outline (path signal 50  -1960 700  1950 700))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin Rect[T]Pad_1200x900_um 2 927.1 38.1)
+      (pin Rect[T]Pad_1200x900_um 1 -1100 0)
+    )
+    (image Resistors_SMD:R_0603_HandSoldering::2
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 50  -1960 700  1950 700))
+      (outline (path signal 50  -1960 700  -1960 -700))
+      (outline (path signal 50  1950 -700  1950 700))
+      (outline (path signal 50  1950 -700  -1960 -700))
+      (pin Rect[T]Pad_1200x900_um 1 -1100 0)
+      (pin Rect[T]Pad_1200x900_um 2 1100 25.4)
+    )
+    (image Resistors_SMD:R_0603_HandSoldering::3
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 50  -1960 700  1950 700))
+      (outline (path signal 50  -1960 700  -1960 -700))
+      (outline (path signal 50  1950 -700  1950 700))
+      (outline (path signal 50  1950 -700  -1960 -700))
+      (pin Rect[T]Pad_1200x900_um 1 -1100 0)
+      (pin Rect[T]Pad_1200x900_um 2 1125.4 0)
+    )
+    (image Resistors_SMD:R_0603_HandSoldering::4
+      (outline (path signal 50  1950 -700  -1960 -700))
+      (outline (path signal 50  1950 -700  1950 700))
+      (outline (path signal 50  -1960 700  -1960 -700))
+      (outline (path signal 50  -1960 700  1950 700))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin Rect[T]Pad_1200x900_um 2 1100 76.2)
+      (pin Rect[T]Pad_1200x900_um 1 -1100 0)
+    )
+    (padstack Oval[A]Pad_1600x1600_um
+      (shape (path F.Cu 1600  0 0  0 0))
+      (shape (path B.Cu 1600  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x750_um
+      (shape (rect F.Cu -600 -375 600 375))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1200x900_um
+      (shape (rect F.Cu -600 -450 600 450))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1600x1600_um
+      (shape (rect F.Cu -800 -800 800 800))
+      (shape (rect B.Cu -800 -800 800 800))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net GND
+      (pins U13-7 C1-2 C2-2 C3-2)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins U13-3 C1-1 R3-1)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins U13-5 C2-1 R4-1)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins U13-9 C3-1 R5-1)
+    )
+    (net "Net-(R1-Pad2)"
+      (pins U13-1 R1-2 R4-2 R5-2)
+    )
+    (net "Net-(R1-Pad1)"
+      (pins U13-11 R1-1)
+    )
+    (net "Net-(R2-Pad2)"
+      (pins U13-2 R2-2 R3-2)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins U13-13 R2-1)
+    )
+    (net "Net-(U13-Pad6)"
+      (pins U13-6)
+    )
+    (net "Net-(U13-Pad12)"
+      (pins U13-12)
+    )
+    (net "Net-(U13-Pad4)"
+      (pins U13-4)
+    )
+    (net "Net-(U13-Pad10)"
+      (pins U13-10)
+    )
+    (net "Net-(U13-Pad8)"
+      (pins U13-8)
+    )
+    (class kicad_default "" +5V GND "Net-(C1-Pad1)" "Net-(C2-Pad1)" "Net-(C3-Pad1)"
+      "Net-(R1-Pad1)" "Net-(R1-Pad2)" "Net-(R2-Pad1)" "Net-(R2-Pad2)" "Net-(U13-Pad10)"
+      "Net-(U13-Pad12)" "Net-(U13-Pad4)" "Net-(U13-Pad6)" "Net-(U13-Pad8)"
+      "Net-(U14-Pad10)" "Net-(U14-Pad12)" "Net-(U14-Pad2)" "Net-(U14-Pad4)"
+      "Net-(U14-Pad6)" "Net-(U14-Pad8)"
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
