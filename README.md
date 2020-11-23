@@ -12,7 +12,7 @@ Installed in a 600XL:
 The little board, once assembled, is piggybacked on top of a 74LS14 Hex Inverter.
 
 # Billing of Materials:
-- 1x 74LS14 Hex Inverter Schmitt Trigger
+- 1x 74LS14 or 74HC14 Hex Inverter Schmitt Trigger
 
 Resistors:
 - R1  : 120R Resistor, 0603
