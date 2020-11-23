@@ -29,7 +29,7 @@ Capacitors:
 Bend up pins 2,3,5,9,11 and 13, solder the little PCB on top of the 74LS14. Connect pins 1 and 7 to the PCB. 
 
 # Rev. A
-This is a rework of the first design. The functionality is still the same, for this design it is not necessary to bend up pins on the the IC and piggybacking the PCB on top of the IC. The IC can be soldered on top of the PCB, along with the resistors and capacitors. PCB thickness should be 0.6mm.
+This is a rework of the first design. The functionality is still the same, for this design it is not necessary to bend up pins on the the IC and piggybacking the PCB on top of the IC. The IC can now be soldered on top of the PCB, along with the resistors and capacitors. PCB thickness should be 0.6mm.
 
 ![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/Rev.%20A/Delay%20Line.png)
 
