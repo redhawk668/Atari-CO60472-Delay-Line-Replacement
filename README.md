@@ -37,6 +37,13 @@ This is a rework of the first design. The functionality is still the same, for t
 
 Billing of materials is the same as the first design.
 
+![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/IMG_20201123_210550_2.jpg)
+
+![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/IMG_20201123_210623_2.jpg)
+
+This is Rev. A installed in a 600XL, fits perfectly:
+
+![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/IMG_20201123_210745.jpg)
 
 
 
