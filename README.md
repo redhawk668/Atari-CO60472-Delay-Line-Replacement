@@ -61,9 +61,9 @@ Resistors:
 - R5  : 620R Resistor, 0603
 
 Capacitors:
-- C1  : 1nF Ceramic Capacitor
-- C2  : 150pF Ceramic Capacitor
-- C3  : 30pF Ceramic Capacitor
+- C1  : 1nF Ceramic Capacitor, 0603
+- C2  : 150pF Ceramic Capacitor, 0603
+- C3  : 30pF Ceramic Capacitor, 0603
 
 Machine pin headers (Omron XR2P-3241)
 
