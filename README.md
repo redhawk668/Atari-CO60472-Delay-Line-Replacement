@@ -45,6 +45,30 @@ This is Rev. A installed in a 600XL, fits perfectly:
 
 ![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/IMG_20201123_210745.jpg)
 
+# Rev. B
+A little rework of Rev. A. This is a full SMD design. However, due to space restrictions it has the same form factor as Rev. A. Functionality is still the same. 
+
+![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/Rev.%20B/Delay%20Line.png)
+
+# Billing of Materials
+- 1x 74LS14 or 74HC14 TSSOP-14 SMD package
+
+Resistors:
+- R1  : 120R Resistor, 0603
+- R2  : 100R Resistor, 0603
+- R3  : 120R Resistor, 0603
+- R4  : 270R Resistor, 0603
+- R5  : 620R Resistor, 0603
+
+Capacitors:
+- C1  : 1nF Ceramic Capacitor
+- C2  : 150pF Ceramic Capacitor
+- C3  : 30pF Ceramic Capacitor
+
+Machine pin headers (Omron XR2P-3241)
+
+
+
 
 
 
