@@ -67,6 +67,11 @@ Capacitors:
 
 Machine pin headers (Omron XR2P-3241)
 
+# Rev. C
+Another rework, this is a a lot smaller. Everything now fits within the DIP-14 footprint. The Billing of Materials is the same as Rev. B. 
+
+
+
 
 
 
