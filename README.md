@@ -70,7 +70,11 @@ Machine pin headers (Omron XR2P-3241)
 # Rev. C
 Another rework, this is a a lot smaller. Everything now fits within the DIP-14 footprint. The Billing of Materials is the same as Rev. B. 
 
+# Top
+![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/Rev.%20C/Delay%20Line%20Top.png)
 
+# Bottom
+![alt text](https://github.com/redhawk668/Atari-CO60472-Delay-Line-Replacement/blob/main/Rev.%20C/Delay%20Line%20Bottom.png)
 
 
 
